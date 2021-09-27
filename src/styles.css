@@ -1,8 +1,15 @@
 /* Add application styles & imports to this file! */
 my-app {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  column-gap: 5rem;
 }
 .burger {
   padding: 0 15px;
