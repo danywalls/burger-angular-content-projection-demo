@@ -1,3 +1,11 @@
 <div class="burger">
-  <ng-content></ng-content>
+  <top-bun></top-bun>
+  <ng-content select="[top]"></ng-content>
+  <ng-content select="[middle]"></ng-content>
+  <ng-content select="[bottom]"></ng-content>
+  <bottom-bun></bottom-bun>
+</div>
+
+<div class="price">
+  <ng-content select="[price]"></ng-content>
 </div>

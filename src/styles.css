@@ -41,3 +41,7 @@ my-app {
   height: 10px;
   background-color: red;
 }
+
+[price] {
+  text-align: center;
+}
