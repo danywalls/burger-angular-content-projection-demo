@@ -49,6 +49,6 @@ my-app {
   background-color: red;
 }
 
-[price] {
+.price {
   text-align: center;
 }
